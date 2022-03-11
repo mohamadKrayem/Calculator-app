@@ -45,6 +45,7 @@ export const GlobalStyles = createGlobalStyle`
         return theme.colors.keyShadowColor_Dark;
       }
     }};
+    box-shadow: 0 3px ${({theme}) => theme.name == "Theme 3"?theme.colors.screenBackgroundColor:theme.colors.KeyShadowColor_Grayish};
   }
   .Result{
     color: ${({theme}) => {
@@ -57,22 +58,37 @@ export const GlobalStyles = createGlobalStyle`
       }
     }
   };
-    background-color: ${({theme}) => theme.colors.screenBackgroundColor};
+    background-color: ${({theme}) => theme.colors.toggleBackgroundColor};
   }
   .Buttons{
     background-color: ${({theme}) => theme.colors.toggleBackgroundColor};
   }
   #Del{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
     color: ${({theme}) => theme.colors.TextColor_White};
     background-color: ${({theme}) => theme.name == 'Theme 3'?theme.colors.screenBackgroundColor : theme.colors.keyBackgroundColor_Desaturated};
+    box-shadow: 0 3px ${({theme}) => theme.name == "Theme 3"?theme.colors.keyBackgroundColor_Desaturated:theme.colors.keyShadowColor_Desaturated};
   }
   #bigButtons1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
     color: ${({theme}) => theme.colors.TextColor_White};
     background-color: ${({theme}) => theme.name == 'Theme 3'?theme.colors.screenBackgroundColor : theme.colors.keyBackgroundColor_Desaturated};
+    box-shadow: 0 3px ${({theme}) => theme.name == "Theme 3"?theme.colors.keyBackgroundColor_Desaturated:theme.colors.keyShadowColor_Desaturated};
   }
   #bigButtons2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
     color: ${({theme}) => theme.name == 'Theme 3'? theme.colors.TextColor_Dark :theme.colors.TextColor_White};
-    background-color: ${({theme}) => theme.colors.keyBackgroundColor_Red};
+    background-color: ${({theme}) => theme.name == 'Theme 3'?theme.colors.keyShadowColor_Desaturated:theme.colors.keyBackgroundColor_Red};
+    box-shadow: 0 3px ${({theme}) => theme.name == "Theme 3"?theme.colors.keyBackgroundColor_Red:theme.colors.keyShadowColor_Dark};
   }
 
 `

@@ -1,6 +1,5 @@
 import './ChangeTheme.scss';
-import { useState, useEffect } from 'react';
-import styled from 'styled-components';
+import { useState } from 'react';
 import _ from 'lodash';
 import {useTheme} from '../../themes/Theme';
 import { getFromLS } from '../../utils/storage';
