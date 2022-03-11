@@ -1,0 +1,55 @@
+{
+  "data": {
+    "theme1" : {
+      "id": "t-001",
+      "name": "Theme 1",
+      "colors": {
+        "mainBackgroundColor": "hsl(222, 26%, 31%)",
+        "toggleBackgroundColor":"hsl(223, 31%, 20%)",
+        "screenBackgroundColor": "hsl(224, 36%, 15%)",
+        "keyBackgroundColor_Desaturated":"hsl(225, 21%, 49%)",
+        "keyShadowColor_Desaturated":"hsl(224, 28%, 35%)",
+        "keyBackgroundColor_Red":"hsl(6, 63%, 50%)",
+        "keyShadowColor_Dark":"hsl(6, 70%, 34%)",
+        "keyBackgroundColor_Light": "hsl(30, 25%, 89%)",
+        "KeyShadowColor_Grayish":"hsl(28, 16%, 65%)",
+        "TextColor_Dark":"hsl(221, 14%, 31%)",
+        "TextColor_White":"#eae3db"
+      }
+    },
+    "theme2": {
+      "id":"t_002",
+      "name":"Theme 2",
+      "colors": {
+        "mainBackgroundColor": "hsl(0, 0%, 90%)",
+        "toggleBackgroundColor":"hsl(0, 5%, 81%)",
+        "screenBackgroundColor": "hsl(0, 0%, 93%)",
+        "keyBackgroundColor_Desaturated":"hsl(185, 42%, 37%)",
+        "keyShadowColor_Desaturated":"hsl(185, 58%, 25%)",
+        "keyBackgroundColor_Red":"hsl(25, 98%, 40%)",
+        "keyShadowColor_Dark":"hsl(25, 99%, 27%)",
+        "keyBackgroundColor_Light": "hsl(45, 7%, 89%)",
+        "KeyShadowColor_Grayish":"hsl(35, 11%, 61%)",
+        "TextColor_Dark":"hsl(60, 10%, 19%)",
+        "TextColor_White":"hsl(0, 0, 100%)"
+      }
+    },
+    "theme3": {
+      "id":"t_003",
+      "name":"Theme 3",
+      "colors":{
+        "mainBackgroundColor": "hsl(268, 75%, 9%)",
+        "toggleBackgroundColor":"hsl(268, 71%, 12%)",
+        "screenBackgroundColor": "hsl(281, 89%, 26%)",
+        "keyBackgroundColor_Desaturated":"hsl(285, 91%, 52%)",
+        "keyShadowColor_Desaturated":"hsl(176, 100%, 44%)",
+        "keyBackgroundColor_Red":"hsl(177, 92%, 70%)",
+        "keyShadowColor_Dark":"hsl(268, 47%, 21%)",
+        "keyBackgroundColor_Light": "hsl(290, 70%, 36%)",
+        "KeyShadowColor_Grayish":"hsl(52, 100%, 62%)",
+        "TextColor_Dark":"hsl(198, 20%, 13%)",
+        "TextColor_White":"hsl(0, 0, 100%)"
+      }
+    }
+  }
+}

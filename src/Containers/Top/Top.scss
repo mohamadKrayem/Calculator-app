@@ -1,0 +1,25 @@
+.top{
+  display:flex;
+  align-items:flex-end;
+  justify-content: space-between;
+
+  .calc{
+    justify-self: flex-start;
+    font-size: 25px;
+    margin-bottom:0;
+  }
+
+  div{
+    padding-right: 5px;
+
+    h3{
+      font-size: 16px;
+      margin-bottom: 0;
+    }
+
+    display:flex;
+    justify-content: space-evenly;
+    align-items:flex-end; 
+    gap: 10%;
+  }
+}
